@@ -1,0 +1,8 @@
+ID,StateName,ClassName,PNGFilename,CollisionFilename
+0,Splash,PNGRoom,assets/Splash.png,
+1,Instructions,InstructionsScreen,assets/Instructions.png,
+2,Start,PNGRoom,assets/town.png,
+3,ChildClassroom,PNGRoom,assets/child_classroom.png,
+4,ChildPark,PNGRoom,assets/child_park.png,
+5,Kitchen,PNGRoom,assets/kitchen.png,
+6,ChildBedroom,PNGRoom,assets/child_bedroom.png,

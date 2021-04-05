@@ -1,4 +1,0 @@
-ID,Name,State,PNGFilename,Text,x,y,visible
-0,StartGame,Instructions,,Start Game,100,650,yes
-1,SelectAvatar,Instructions,,Select Avatar,300,650,yes
-2,Done,AvatarSelection,,Done,100,650,yes

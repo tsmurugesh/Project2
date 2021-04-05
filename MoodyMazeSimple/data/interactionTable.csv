@@ -1,0 +1,11 @@
+CurrentState,KeyTyped,KeyCode,MouseEvent,ClickableName,MapDirection,NextState
+Splash,,,mouseReleased,,,Instructions
+Instructions,,,,StartGame,,Start
+Start,,,,,N,ChildClassroom
+Start,,,,,W,Kitchen
+Start,,,,,E,ChildPark
+ChildClassroom,,,,,S,Start
+ChildPark,,,,,W,Start
+Kitchen,,,,,E,Start
+Kitchen,,,,,W,ChildBedroom
+ChildBedroom,,,,,E,Kitchen

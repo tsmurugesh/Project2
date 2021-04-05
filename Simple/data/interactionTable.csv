@@ -1,0 +1,9 @@
+CurrentState,KeyTyped,MapDirection,NextState
+Maze_SE,,N,Maze_NE
+Maze_NE,,S,Maze_SE
+Maze_NE,,W,Maze_NW
+Maze_NW,,E,Maze_NE
+Maze_NW,,S,Maze_SW
+Maze_SW,,N,Maze_NW
+Maze_SW,,E,Maze_SE
+Maze_SE,,W,Maze_SW

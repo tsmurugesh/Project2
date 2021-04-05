@@ -49,6 +49,8 @@ class AdventureManager {
             // All classes (for now) have a PNGFilename, could add a blank room
             this.states[validStateCount].setup(this.statesTable.getString(i, 'PNGFilename'));
 
+             this.states[validStateCount].preload();
+
 /*
             if( className === "PNGRoom" ) {
                 // load the file from the table
@@ -206,6 +208,9 @@ class AdventureManager {
     }
 
     checkPlayerSprite() {
+        if( this.playerSprite === null ) {
+            return;
+        }
         let direction = this.checkSpriteBounds();
         
         // empty string returned if we are in the room still
@@ -342,6 +347,11 @@ class PNGRoom {
         this.imagePath = String(_imagePath);
     }
 
+    // empty, sublcasses can override
+    preload() {
+       
+    }
+
     load() {
         this.image = loadImage(this.imagePath);
     }
@@ -369,8 +379,6 @@ class MazeRoom extends PNGRoom {
         this.image = null;
         this.imagePath = null;
     }
-
-  
 }
 
 
